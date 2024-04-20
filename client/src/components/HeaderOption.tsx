@@ -1,14 +1,14 @@
 import styled from "styled-components";
 import { HeaderOptionType } from "./types";
 
-const HeaderOptionComponent = ({ large, small }: HeaderOptionType) => {
+const HeaderOptionComponent = ({ small, large }: HeaderOptionType) => {
   return (
     <HeaderOption>
-        <span>
-            {large}
-        </span>
-        <span>
+      <span className="text-[10px]">
             {small}
+        </span>
+      <span className="text-[13px] font-extrabold">
+            {large}
         </span>
     </HeaderOption>
   )
@@ -17,5 +17,9 @@ const HeaderOptionComponent = ({ large, small }: HeaderOptionType) => {
 export default HeaderOptionComponent;
 
 const HeaderOption = styled.div`
-
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
 `

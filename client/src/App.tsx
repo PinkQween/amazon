@@ -1,9 +1,9 @@
-import { Header } from "./components"
+import { Home } from "./pages";
 
 const App = () => {
   return (
     <>
-      <Header />
+      <Home />
     </>
   )
 }
