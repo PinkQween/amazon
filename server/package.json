@@ -10,6 +10,11 @@
   },
   "dependencies": {
     "@types/express": "^4.17.21",
-    "@types/stripe": "^8.0.417"
+    "@types/nodemailer": "^6.4.14",
+    "@types/smtp-server": "^3.5.10",
+    "@types/stripe": "^8.0.417",
+    "body-parser": "^1.20.2",
+    "nodemailer": "^6.9.13",
+    "smtp-server": "^3.13.4"
   }
 }
